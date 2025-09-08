@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+}
+
+
+.about p{
+    margin: 100px;
+    font-size: 60px;
+    font-family: "Bodoni Moda", serif;
+    text-align: center;
+}
+.lon{
+    margin-top: 70px;
+}
+.lon, .giua{
+    font-size: 40px;
+    font-family: "Bodoni Moda", serif;
+}
+.nho{
+    color: rgb(145, 145, 145);
+    font-family: "Roboto", sans-serif;
+}
+.giua{
+    text-align: center;
+    padding-top: 80px;
+}
+.bon{
+    width: 300px;
+    height:  auto;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bon img{
+    width: 300px;
+    height: 300px;
+}
+.bon h3{
+    margin: 10px;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+}
+.bon p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgb(145, 145, 145);
+}
+
+
+
+hr{
+    margin: 40px;
+}
+.clear{
+    clear: both;
+}
+
+.kkk{
+    position: relative;
+    animation-name: kkk;
+    animation-duration: 8s;
+}
+@keyframes kkk {
+    from   {left:-300px;}
+    to {left:0px;}
+}

@@ -1,0 +1,117 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+}
+.about p{
+    margin: 100px;
+    font-size: 60px;
+    font-family: "Bodoni Moda", serif;
+    text-align: center;
+}
+
+/*form đăng ký */
+.formdangky{
+    width: 1500px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.formdangky p{
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 35px;
+}
+.form input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(133, 133, 133);
+    padding: 1px 5px;
+}
+.form textarea{
+    width: 625px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(133, 133, 133);
+    padding: 1px 5px;
+}
+.form button{
+    width: 635px;
+    height: 40px;
+    background: white;
+    border: 1px solid rgb(133, 133, 133);
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.form button:hover{
+    transform: scale(1.1);
+    color: white;
+    background: black;
+}
+.font{
+    outline: none;
+}
+.font:focus{
+    border: 2px solid black;
+}
+/*  */
+.giua{
+    font-size: 40px;
+    font-family: "Bodoni Moda", serif;
+}
+.nho{
+    color: rgb(145, 145, 145);
+    font-family: "Roboto", sans-serif;
+}
+.giua{
+    text-align: center;
+    padding-top: 80px;
+}
+.bon{
+    width: 300px;
+    height:  auto;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bon img{
+    width: 300px;
+    height: 300px;
+}
+.bon h3{
+    margin: 10px;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+}
+.bon p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgb(145, 145, 145);
+}
+
+
+
+
+
+
+
+
+
+hr{
+    margin: 40px;
+}
+.clear{
+    clear: both;
+}

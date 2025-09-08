@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.goi p{
+    color: rgb(143, 143, 143);
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+}
+.menu{
+    margin-top: -30px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 130px;
+    border: 1px solid rgb(146, 146, 146);
+    float: right;
+    position: relative;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(146, 146, 146);
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.menu>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    border-radius: 3px;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    margin-left: -18px;
+    list-style: none;
+    width: 130px;
+    background-color: white;
+    border: 1px solid rgb(146, 146, 146);
+}
+.menu ul ul a{
+    display: block;
+    line-height: 50px;
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    color: rgb(0, 0, 0);
+}
+/*.goi1{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 130px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+    border: 3px solid rgb(142, 142, 142);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.goi1 h2{
+    color: white;
+    float: right;
+    margin-right: -5px;
+    margin-top: 0px;
+    font-size: 30px;
+    
+}
+.goi1 h2 a{
+    color: rgb(134, 134, 134);
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.goi1:hover{
+    transform: scale(1.1);
+}
+*/
+
+/* contrainer */
+.container{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1400px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.mySlides img{
+    display: block;
+    height: 600px;
+    transition: all 0.3s ease-in-out;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.mySlides img:hover{
+    transform: scale(1.1);
+}
+
+
+/* giới thiệu biển */
+.gioithieu{
+    width: 1500px;
+    height: auto;
+    position: relative;
+    animation-name: gioithieu;
+    animation-duration: 4s;
+}
+.center{
+    margin: auto;
+}
+.gioithieu .chu{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 70px;
+    color: black;
+    margin-right: 50px;
+}
+.class{
+    margin-left: 70px;
+    font-family: "Roboto", sans-serif;
+}
+.left{
+    float: left;
+}
+.gioithieu h2{
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.gioithieu p{
+    font-size: 25px;
+    float: left;
+    color: rgb(143, 143, 143);
+}
+.imger{
+    margin-top: -290px
+}
+.imger img{
+    float: right;
+    width: 300px;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px #717171;
+}
+.img1{
+    position: relative;
+    top: -120px;
+}
+.img2{
+    position: relative;
+    top: -30px;
+}
+.img3{
+    position: relative;
+    float:right;
+    left: 680px;
+    top: -100px;
+}
+.imger img:hover{
+    transform: scale(1.1);
+}
+
+
+/* sản phẩm */
+.sologan{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+
+}
+.products{
+    margin-top: 50px;
+    width: 1500px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.chitiet1{
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    float: left;
+    box-shadow: 0 0 20px #717171;
+    margin: 30px;
+    margin-left: 60px;
+}
+.chitiet1 img{
+    width: 400px;
+    height: 300px;
+}
+.chitiet h2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.button{
+    margin-top: 20px;
+}
+.button p{
+    font-size: 17px;
+    color: rgb(144, 144, 144);
+    font-family: "Bodoni Moda", serif;
+}
+.button button{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.chitiet2 .chitiet1 h2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+
+}
+.button button:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+/* uor */
+.bolgs{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    color: rgb(143, 143, 143);
+}
+.tieude{
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.uos{
+    width: 1500px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+    animation-name: sle;
+    animation-duration: 8s;
+}
+.our{
+    width: 470px;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.our img{
+    width: 470px;
+    height: 400px;
+}
+.chumoi{
+    font-family: "Bodoni Moda", serif;
+    font-size: 35px;
+}
+.kkk{
+    font-family: "Roboto", sans-serif;
+    color: rgb(142, 142, 142);
+}
+
+
+.get{
+    margin-left: 100px;
+}
+.loo{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(142, 142, 142);
+}
+.asc{
+    margin-top: 400px;
+}
+.asc img{
+    float: right;
+    margin-top: -640px;
+    margin-bottom: 100px;
+}
+
+.insta{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+    font-size: 40px;
+}
+
+/*footer */
+.footer{
+    margin: auto;
+    width: 1500px;
+    height: 350px;
+}
+.dau{
+    margin-top: 100px;
+}
+.dau p{
+    color: rgb(142, 142, 142);
+    margin-left: 250px;
+}
+.chinh{
+    font-size: 50px;
+    font-family: "Bodoni Moda", serif;
+}
+.phu{
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.icon{
+    display: inline;
+    font-size: 30px;
+    float: left;
+    padding-top: 15px;
+    margin-left: 250px;
+}
+.icon a{
+    margin-right: 20px;
+}
+.cuoi{
+    float: right;
+    margin-top: -190px;
+    margin-right: 200px;
+}
+.to{
+    font-size: 50px;
+    font-family: "Bodoni Moda", serif;
+}
+.nho{
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.clear{
+    clear: both;
+}
+.vmenu a:hover{
+    color: white;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+@keyframes example {
+    0%   {background-color:white;  bottom:-500px;}
+    100% {background-color:white;  bottom:0px;}
+}
+
+@keyframes sle {
+    from   {right:-500px;}
+    to {right:0px;}
+}
+
+@keyframes gioithieu {
+    from   {left:-300px;}
+    to {left:0px;}
+}

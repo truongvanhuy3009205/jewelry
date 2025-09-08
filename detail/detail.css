@@ -1,0 +1,105 @@
+.detail-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    margin-top: 5%;
+}
+
+.details__row {
+    display: flex;
+}
+
+.details__row--img {
+    padding-right: 50px;
+    flex-basis: 50%;
+}
+
+.details__row--img img {
+    padding-bottom: 50px;
+}
+
+.details__row--text {
+    flex-basis: 50%;
+}
+
+.details__row--text h1 {
+    margin: 16px 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.details__info--show h2 {
+    font-size: 17px;
+    margin: 16px 0;
+    font-weight: normal;
+}
+
+.price {
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+}
+
+.details__row--text h4 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+input[type='number'] {
+    width: 15%;
+    padding: 10px;
+    display: block;
+}
+
+.btn--add {
+    margin: 20px 0;
+    background: transparent;
+    border: none;
+    padding: 15px 20px;
+    width: 70%;
+    background: #5E5E4A;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn--add:hover {
+    background: rgba(94, 94, 74, 0.7);
+}
+
+.fas {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.details__info {
+    padding-top: 20px;
+    border-bottom: 1px solid #C7C7C7;
+    width: 70%;
+}
+
+.details__info:last-child {
+    border-bottom: none;
+}
+
+.details__info--show {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.details__info--text {
+    display: none;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+
+.details__info--text.active {
+    display: block;
+    transform: translateY(0)
+}
+
+.details__info--text p {
+    padding-bottom: 20px;
+}

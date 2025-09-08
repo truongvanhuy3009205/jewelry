@@ -1,0 +1,44 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+}
+
+.single{
+    width: 1000px;
+    height: auto;
+    margin-left: 250px;
+}
+.center{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+}
+.dam, .nhat{
+    font-family: "Roboto", sans-serif;
+    margin: 30px;
+}
+.nhat{
+    color: rgb(142, 142, 142);
+}
+.more{
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    margin: 30px;
+}
+
+
+
+hr{
+    margin: 40px;
+}
+.clear{
+    clear: both;
+}

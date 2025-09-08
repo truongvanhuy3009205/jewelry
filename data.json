@@ -1,0 +1,44 @@
+    [
+    {
+        "id": 1,
+        "title": "Gold Necklace",
+        "mota": "A luxurious gold necklace designed with elegance and sophistication. Perfect for daily wear or special occasions, adding a timeless touch to your style.",
+        "price": 100000,
+        "img": "img/mot.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Earrings",
+        "mota": "Classic earrings with a minimalist yet elegant design. Easy to match with any outfit, suitable for both casual and formal events.",
+        "price": 100000,
+        "img": "img/hai.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Silver Necklace",
+        "mota": "A delicate silver necklace crafted with high-quality material. Shiny and durable, ideal for adding a modern and fresh look.",
+        "price": 100000,
+        "img": "img/ba.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Halori Necklace",
+        "mota": "A unique Halori-style necklace that combines tradition and modern fashion. Perfect for those who love creative and distinctive jewelry.",
+        "price": 100000,
+        "img": "img/bon.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Round Pendant Necklace",
+        "mota": "A simple yet stylish round pendant necklace. Its minimal design makes it versatile and easy to pair with different outfits.",
+        "price": 100000,
+        "img": "img/nam.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Purple Diamond Earrings",
+        "mota": "Elegant earrings featuring sparkling purple diamonds. A luxurious accessory that brings charm and confidence to your look.",
+        "price": 100000,
+        "img": "img/product-item7.jpg"
+    }
+]
